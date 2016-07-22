@@ -1,0 +1,154 @@
+{
+  "cloudbreak": [
+    {
+      "ambari": {
+        "cb_versions": [
+          "1.4.0-rc.26"
+        ],
+        "version": "2.4.0.0-696",
+        "repo": {
+          "redhat6": "http://s3.amazonaws.com/dev.hortonworks.com/ambari/centos6/2.x/BUILDS/2.4.0.0-696/",
+          "redhat7": "http://s3.amazonaws.com/dev.hortonworks.com/ambari/centos7/2.x/BUILDS/2.4.0.0-696/"
+        },
+        "hdp": [
+          {
+            "version": "2.5.0.0-841",
+            "repo": {
+              "stack": {
+                "repoid": "HDP-2.5",
+                "redhat6": "http://s3.amazonaws.com/dev.hortonworks.com/HDP/centos6/2.x/BUILDS/2.5.0.0-841",
+                "redhat7": "http://s3.amazonaws.com/dev.hortonworks.com/HDP/centos7/2.x/BUILDS/2.5.0.0-841"
+              },
+              "util": {
+                "repoid": "HDP-UTILS-1.1.0.21",
+                "redhat6": "http://s3.amazonaws.com/dev.hortonworks.com/HDP-UTILS-1.1.0.21/repos/centos6",
+                "redhat7": "http://s3.amazonaws.com/dev.hortonworks.com/HDP-UTILS-1.1.0.21/repos/centos7"
+              }
+            },
+            "images": {
+              "aws": {
+                "ap-northeast-1": "ami-0a59a86b",
+                "ap-northeast-2": "ami-ff8b4191",
+                "ap-southeast-1": "ami-c85587ab",
+                "ap-southeast-2": "ami-757b5016",
+                "eu-central-1": "ami-392bc056",
+                "eu-west-1": "ami-8ba832f8",
+                "sa-east-1": "ami-6952c705",
+                "us-east-1": "ami-a82990bf",
+                "us-west-1": "ami-74286f14",
+                "us-west-2": "ami-c25197a2"
+              },
+              "openstack": {
+                "default": "cloudbreak-2016-06-27-01-30"
+              }
+            }
+          },
+          {
+            "version": "2.4.10.0-30",
+            "repo": {
+              "stack": {
+                "repoid": "HDP-2.4",
+                "redhat6": "http://s3.amazonaws.com/dev.hortonworks.com/HDP/centos6/2.x/BUILDS/2.4.10.0-30",
+                "redhat7": "http://s3.amazonaws.com/dev.hortonworks.com/HDP/centos7/2.x/BUILDS/2.4.10.0-30"
+              },
+              "util": {
+                "repoid": "HDP-UTILS-1.1.0.20",
+                "redhat6": "http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.20/repos/centos6",
+                "redhat7": "http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.20/repos/centos7"
+              }
+            },
+            "images": {
+              "aws": {
+                "ap-northeast-1": "ami-6d4ebf0c",
+                "ap-northeast-2": "ami-878b41e9",
+                "ap-southeast-1": "ami-17598b74",
+                "ap-southeast-2": "ami-f5664d96",
+                "eu-central-1": "ami-2329c24c",
+                "eu-west-1": "ami-deae34ad",
+                "sa-east-1": "ami-d0a237bc",
+                "us-east-1": "ami-79229b6e",
+                "us-west-1": "ami-67296e07",
+                "us-west-2": "ami-ba5f99da"
+              },
+              "openstack": {
+                "default": "cloudbreak-2016-06-27-01-30"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "ambari": {
+        "cb_versions": [
+          "1.4.0-rc.36"
+        ],
+        "version": "2.4.0.0-898",
+        "repo": {
+          "redhat6": "http://s3.amazonaws.com/dev.hortonworks.com/ambari/centos6/2.x/BUILDS/2.4.0.0-898/",
+          "redhat7": "http://s3.amazonaws.com/dev.hortonworks.com/ambari/centos7/2.x/BUILDS/2.4.0.0-898/"
+        },
+        "hdp": [
+          {
+            "version": "2.5.0.0-1023",
+            "repo": {
+              "stack": {
+                "repoid": "HDP-2.5",
+                "redhat6": "http://s3.amazonaws.com/dev.hortonworks.com/HDP/centos6/2.x/BUILDS/2.5.0.0-1023",
+                "redhat7": "http://s3.amazonaws.com/dev.hortonworks.com/HDP/centos7/2.x/BUILDS/2.5.0.0-1023"
+              },
+              "util": {
+                "repoid": "HDP-UTILS-1.1.0.21",
+                "redhat6": "http://s3.amazonaws.com/dev.hortonworks.com/HDP-UTILS-1.1.0.21/repos/centos6",
+                "redhat7": "http://s3.amazonaws.com/dev.hortonworks.com/HDP-UTILS-1.1.0.21/repos/centos7"
+              }
+            },
+            "images": {
+              "aws": {
+                  "ap-northeast-1": "ami-953dc4f4",
+                  "ap-northeast-2": "ami-5cd31932",
+                  "ap-southeast-1": "ami-e23be781",
+                  "ap-southeast-2": "ami-37f0da54",
+                  "eu-central-1": "ami-3454a15b",
+                  "eu-west-1": "ami-4af49439",
+                  "sa-east-1": "ami-d50793b9",
+                  "us-east-1": "ami-ad018eba",
+                  "us-west-1": "ami-db3677bb",
+                  "us-west-2": "ami-5d18d53d"
+              }
+            }
+          },
+          {
+            "version": "2.4.10.0-30",
+            "repo": {
+              "stack": {
+                "repoid": "HDP-2.4",
+                "redhat6": "http://s3.amazonaws.com/dev.hortonworks.com/HDP/centos6/2.x/BUILDS/2.4.10.0-30",
+                "redhat7": "http://s3.amazonaws.com/dev.hortonworks.com/HDP/centos7/2.x/BUILDS/2.4.10.0-30"
+              },
+              "util": {
+                "repoid": "HDP-UTILS-1.1.0.20",
+                "redhat6": "http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.20/repos/centos6",
+                "redhat7": "http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.20/repos/centos7"
+              }
+            },
+            "images": {
+              "aws": {
+                "ap-northeast-1": "ami-6d4ebf0c",
+                "ap-northeast-2": "ami-878b41e9",
+                "ap-southeast-1": "ami-17598b74",
+                "ap-southeast-2": "ami-f5664d96",
+                "eu-central-1": "ami-2329c24c",
+                "eu-west-1": "ami-deae34ad",
+                "sa-east-1": "ami-d0a237bc",
+                "us-east-1": "ami-79229b6e",
+                "us-west-1": "ami-67296e07",
+                "us-west-2": "ami-ba5f99da"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
