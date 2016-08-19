@@ -227,7 +227,8 @@
       "ambari": {
         "cb_versions": [
           "1.4.0-rc.36",
-          "1.4.0-rc.51"
+          "1.4.0-rc.51",
+          "1.4.0"
         ],
         "version": "2.4.0.0-1157",
         "repo": {
@@ -258,9 +259,9 @@
                 "eu-central-1": "ami-c758aea8",
                 "eu-west-1": "ami-4d37423e",
                 "sa-east-1": "ami-7b881e17",
-                "us-east-1": "ami-f7c15ae0",
+                "us-east-1": "ami-ce0265d9",
                 "us-west-1": "ami-80e2a1e0",
-                "us-west-2": "ami-f9d91399"
+                "us-west-2": "ami-d52df8b5"
               }
             }
           },
@@ -287,9 +288,9 @@
                 "eu-central-1": "ami-cd4cbaa2",
                 "eu-west-1": "ami-0b067378",
                 "sa-east-1": "ami-70a5331c",
-                "us-east-1": "ami-70a73c67",
+                "us-east-1": "ami-83066194",
                 "us-west-1": "ami-3fe8ab5f",
-                "us-west-2": "ami-6bf9330b"
+                "us-west-2": "ami-eb26f38b"
               }
             }
           }
